@@ -17,6 +17,27 @@ final class NasaTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testJson() {
+        do {
+            let url = Bundle.main.url(forResource: "JsonFile", withExtension: "json")!
+            let data = try Data(contentsOf: url)
+            let list = try JSONDecoder().decode([NasaDatum].self, from: data)
+            XCTAssertNotNil(list)
+            
+            var model = list[0]
+            XCTAssertEqual("A Year of Extraterrestrial Fountains and Flows", model.title)
+            
+            model = list[1]
+            XCTAssertEqual("Digital Illustration Credit & Copyright: Dennis Mammana (Skyscapes)", model.copyright)
+            
+            model = list[2]
+            XCTAssertEqual("2006 Dec. 29", model.dateString)
+        } catch {
+            debugPrint(error.localizedDescription)
+            XCTFail()
+        }
+    }
 
     func testExample() throws {
         // This is an example of a functional test case.

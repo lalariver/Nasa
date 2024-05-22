@@ -16,6 +16,16 @@
 		CE46AC352BECA6B7009FC1D5 /* NasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC342BECA6B7009FC1D5 /* NasaTests.swift */; };
 		CE46AC3F2BECA6B7009FC1D5 /* NasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC3E2BECA6B7009FC1D5 /* NasaUITests.swift */; };
 		CE46AC412BECA6B7009FC1D5 /* NasaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC402BECA6B7009FC1D5 /* NasaUITestsLaunchTests.swift */; };
+		CE46AC4E2BECA70A009FC1D5 /* FetchDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC4D2BECA70A009FC1D5 /* FetchDataViewModel.swift */; };
+		CE46AC502BECA730009FC1D5 /* NasaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC4F2BECA730009FC1D5 /* NasaModel.swift */; };
+		CE46AC522BECA760009FC1D5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC512BECA760009FC1D5 /* CollectionViewController.swift */; };
+		CE46AC552BECC3BD009FC1D5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AC532BECC3BD009FC1D5 /* CollectionViewCell.swift */; };
+		CE46AC562BECC3BD009FC1D5 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE46AC542BECC3BD009FC1D5 /* CollectionViewCell.xib */; };
+		CEB59D452BEDC086003476BB /* FetchImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB59D442BEDC086003476BB /* FetchImageManager.swift */; };
+		CEB59D472BEDC8C8003476BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB59D462BEDC8C8003476BB /* DetailViewController.swift */; };
+		CEB59D4C2BEDF49F003476BB /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CEB59D4B2BEDF48A003476BB /* JsonFile.json */; };
+		CEB59D4D2BEDF49F003476BB /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CEB59D4B2BEDF48A003476BB /* JsonFile.json */; };
+		CEB59D4E2BEDF4A0003476BB /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CEB59D4B2BEDF48A003476BB /* JsonFile.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,14 @@
 		CE46AC3A2BECA6B7009FC1D5 /* NasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46AC3E2BECA6B7009FC1D5 /* NasaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaUITests.swift; sourceTree = "<group>"; };
 		CE46AC402BECA6B7009FC1D5 /* NasaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE46AC4D2BECA70A009FC1D5 /* FetchDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataViewModel.swift; sourceTree = "<group>"; };
+		CE46AC4F2BECA730009FC1D5 /* NasaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaModel.swift; sourceTree = "<group>"; };
+		CE46AC512BECA760009FC1D5 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CE46AC532BECC3BD009FC1D5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE46AC542BECC3BD009FC1D5 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		CEB59D442BEDC086003476BB /* FetchImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageManager.swift; sourceTree = "<group>"; };
+		CEB59D462BEDC8C8003476BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEB59D4B2BEDF48A003476BB /* JsonFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JsonFile.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				CE46AC1C2BECA6B4009FC1D5 /* Nasa */,
+				CEB59D4A2BEDF43E003476BB /* Preview Content */,
 				CE46AC332BECA6B7009FC1D5 /* NasaTests */,
 				CE46AC3D2BECA6B7009FC1D5 /* NasaUITests */,
 				CE46AC1B2BECA6B4009FC1D5 /* Products */,
@@ -102,6 +121,9 @@
 				CE46AC1D2BECA6B4009FC1D5 /* AppDelegate.swift */,
 				CE46AC1F2BECA6B4009FC1D5 /* SceneDelegate.swift */,
 				CE46AC212BECA6B4009FC1D5 /* ViewController.swift */,
+				CEB59D482BEDE9E9003476BB /* CollectionView */,
+				CEB59D462BEDC8C8003476BB /* DetailViewController.swift */,
+				CEB59D442BEDC086003476BB /* FetchImageManager.swift */,
 				CE46AC232BECA6B4009FC1D5 /* Main.storyboard */,
 				CE46AC262BECA6B7009FC1D5 /* Assets.xcassets */,
 				CE46AC282BECA6B7009FC1D5 /* LaunchScreen.storyboard */,
@@ -125,6 +147,34 @@
 				CE46AC402BECA6B7009FC1D5 /* NasaUITestsLaunchTests.swift */,
 			);
 			path = NasaUITests;
+			sourceTree = "<group>";
+		};
+		CEB59D482BEDE9E9003476BB /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CE46AC512BECA760009FC1D5 /* CollectionViewController.swift */,
+				CE46AC4D2BECA70A009FC1D5 /* FetchDataViewModel.swift */,
+				CEB59D492BEDEA04003476BB /* Cell */,
+				CE46AC4F2BECA730009FC1D5 /* NasaModel.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		CEB59D492BEDEA04003476BB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE46AC532BECC3BD009FC1D5 /* CollectionViewCell.swift */,
+				CE46AC542BECC3BD009FC1D5 /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CEB59D4A2BEDF43E003476BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEB59D4B2BEDF48A003476BB /* JsonFile.json */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +283,8 @@
 			files = (
 				CE46AC2A2BECA6B7009FC1D5 /* LaunchScreen.storyboard in Resources */,
 				CE46AC272BECA6B7009FC1D5 /* Assets.xcassets in Resources */,
+				CE46AC562BECC3BD009FC1D5 /* CollectionViewCell.xib in Resources */,
+				CEB59D4C2BEDF49F003476BB /* JsonFile.json in Resources */,
 				CE46AC252BECA6B4009FC1D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB59D4D2BEDF49F003476BB /* JsonFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB59D4E2BEDF4A0003476BB /* JsonFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB59D472BEDC8C8003476BB /* DetailViewController.swift in Sources */,
+				CE46AC522BECA760009FC1D5 /* CollectionViewController.swift in Sources */,
+				CE46AC502BECA730009FC1D5 /* NasaModel.swift in Sources */,
+				CEB59D452BEDC086003476BB /* FetchImageManager.swift in Sources */,
 				CE46AC222BECA6B4009FC1D5 /* ViewController.swift in Sources */,
+				CE46AC552BECC3BD009FC1D5 /* CollectionViewCell.swift in Sources */,
 				CE46AC1E2BECA6B4009FC1D5 /* AppDelegate.swift in Sources */,
 				CE46AC202BECA6B4009FC1D5 /* SceneDelegate.swift in Sources */,
+				CE46AC4E2BECA70A009FC1D5 /* FetchDataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +502,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Preview\\ Content";
+				DEVELOPMENT_TEAM = P3AFKVWDV4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nasa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,6 +511,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +532,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Preview\\ Content";
+				DEVELOPMENT_TEAM = P3AFKVWDV4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nasa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,6 +541,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
